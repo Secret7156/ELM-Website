@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Timeline</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <main class="page">
+    <h1>Timeline</h1>
+    <p class="sub">January 2026 → August 2027.</p>
+
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="./roster.html">Class Roster</a>
+      <a href="./highlights.html">Highlights</a>
+    </nav>
+
+    <div class="card">
+      <div class="card-head">
+        <div>
+          <h2>History</h2>
+          <p class="sub2">🌱───●───►🎓</p>
+        </div>
+
+      </div>
+
+      <div id="mount"></div>
+    </div>
+  </main>
+
+<script src="../assets/app.js"></script>
+<script>
+  renderTimeline({
+    mountId: "mount",
+    dataUrl: "../data/events.json",
+    start: "2026-01-01",
+    end: "2027-08-31",
+    pxPerDay: 6   // max zoom out
+  });
+  </script>
+</body>
+</html>
+ 

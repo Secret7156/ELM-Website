@@ -1,0 +1,15 @@
+[
+  {
+    "id": "first-day",
+    "date": "2026-01-05",
+    "title": "Orientation day",
+    "author": {"id": "020", "name": "Ric Jameson Sabellon" },
+    "text": "Today felt like the true beginning of something I have been preparing for, imagining, and quietly worrying about for a long time. Walking into orientation, I felt a strange mix of excitement and nervousness -- the kind where your body feels awake before your mind fully catches up. There were so many new faces and some familiar ones as well.\n\nThis journey will demand discipline and resilience. Still, I slowly started to imagine myself not just as a student, but as someone capable of becoming a nurse. Meeting classmates made everything feel more real. Conversations were short, but meaningful -- little hints of shared goals, fears, and motivations.\n\nBy the end of the day, exhaustion set in, but it was the good kind. The kind that comes from stepping into something important. I left knowing that this is going to be challenging, and there will be moments of doubt ahead, but today confirmed that I belong here and that this path, however difficult, is one I am ready to walk.",
+    "images": [
+      "../assets/images/highlights/001_020.jpg",
+      "../assets/images/highlights/002_020.jpg"
+    ],
+    "section": "highlights",
+    "labels": "first day"
+  }
+]

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Class Roster</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <main class="page">
+    <h1>Class Roster</h1>
+    <p class="sub">Click a classmate to view a short bio.</p>
+
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="./highlights.html">Highlights</a>
+      <a href="./timeline.html">Timeline</a>
+    </nav>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <h2>Roster</h2>
+          <p class="sub2">Select a tile to view bio below.</p>
+        </div>
+      </div>
+
+      <div id="rosterGrid" class="roster-grid" aria-label="Class roster grid"></div>
+
+      <div id="bioPanel" class="bio-panel" aria-live="polite">
+        <div class="bio-empty">
+          <span class="bio-hint">Select someone above to see their bio.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../assets/app.js"></script>
+  <script>
+    renderRoster({
+      gridId: "rosterGrid",
+      panelId: "bioPanel"
+    });
+  </script>
+</body>
+</html>
