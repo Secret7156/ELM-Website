@@ -2,7 +2,7 @@
   {
     "id": "first-day",
     "date": "2026-01-05",
-    "title": "Orientation day",
+    "title": "Orientation Day",
     "author": {"id": "020", "name": "Ric Jameson Sabellon" },
     "text": "Today felt like the true beginning of something I have been preparing for, imagining, and quietly worrying about for a long time. Walking into orientation, I felt a strange mix of excitement and nervousness -- the kind where your body feels awake before your mind fully catches up. There were so many new faces and some familiar ones as well.\n\nThis journey will demand discipline and resilience. Still, I slowly started to imagine myself not just as a student, but as someone capable of becoming a nurse. Meeting classmates made everything feel more real. Conversations were short, but meaningful -- little hints of shared goals, fears, and motivations.\n\nBy the end of the day, exhaustion set in, but it was the good kind. The kind that comes from stepping into something important. I left knowing that this is going to be challenging, and there will be moments of doubt ahead, but today confirmed that I belong here and that this path, however difficult, is one I am ready to walk.",
     "images": [
@@ -10,6 +10,17 @@
       "../assets/images/highlights/002_020.jpg"
     ],
     "section": "highlights",
-    "labels": "first day"
+    "labels": "First Day"
+  },
+  {
+    "id": "first-class",
+    "date": "2026-01-06",
+    "title": "The Moment It Became Real",
+    "author": {"id": "020", "name": "Ric Jameson Sabellon" },
+    "text": "Today felt like the calm beginning of something bigger than myself. As I walked in the skills lab -- the room I always passed by during my prerequisite -- I thought to myself, this is it. The start of not replacing who I am, but refining who I will become. Each seat around the table tells a different story, a different reason for being there; making my story familiar yet still uniquely me. Thought I know that I don't feel confident in everything yet, and I question if I am even ready -- but I feel aligned. Because the knowledge I will learn from here on forward, will be used to ease someone's fear and pain.",
+    "images":[ 
+      "../assets/images/highlights/003_020.jpg"],
+    "section": "highlights",
+    "labels": "Day One"
   }
 ]
